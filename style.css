@@ -1,0 +1,240 @@
+@font-face {
+  font-family: brand_font;
+  src: url(./fonts/a-astro-space-font/AstroSpace-eZ2Bg.ttf);
+}
+
+<body>{
+  position:relative;
+}
+
+.brand_font {
+  font-family: brand_font;
+}
+.dark_jason{
+  color:#cbd1d0;
+}
+.bg-dark .dropdown-item{
+  color:#8898a8;
+}
+
+
+.bg-less-dark-jason{
+  background-color: #424a52;
+}
+
+.bg_light{
+background-color: #e3f2da;
+
+}
+
+.light_jason{
+color:#414240;
+
+}
+.light-gray{
+  color:#feb5ff;
+}
+
+.gray{
+  color:#feb5ff;
+}
+
+.dark-gray{
+  color:#feb5ff;
+}
+
+.dark_moon_active{
+  filter: invert(47%) sepia(21%) saturate(1842%) hue-rotate(179deg) brightness(103%) contrast(92%) drop-shadow( 3px 3px 10px rgba(131, 178, 252, .9));
+  -webkit-filter: filter: invert(73%) sepia(12%) saturate(4267%) hue-rotate(189deg) brightness(105%) contrast(103%) drop-shadow( 3px 3px 10px rgba(131, 178, 252, .9));
+
+}
+
+.dark_moon_inactive{
+  filter: invert(83%) sepia(6%) saturate(1859%) hue-rotate(324deg) brightness(124%) contrast(102%);
+  -webkit-filter: invert(83%) sepia(6%) saturate(1859%) hue-rotate(324deg) brightness(124%) contrast(102%);
+
+}
+
+.light_sun_inactive{
+  filter: invert(83%) sepia(6%) saturate(1859%) hue-rotate(324deg) brightness(124%) contrast(102%);
+  -webkit-filter: invert(83%) sepia(6%) saturate(1859%) hue-rotate(324deg) brightness(124%) contrast(102%);
+}
+
+.light_sun_active{
+  filter: invert(82%) sepia(42%) saturate(616%) hue-rotate(350deg) brightness(102%) contrast(101%) drop-shadow( 3px 3px 10px rgba(255, 209, 38, .9));
+  -webkit-filter: invert(82%) sepia(42%) saturate(616%) hue-rotate(350deg) brightness(102%) contrast(101%) drop-shadow( 3px 3px 10px rgba(255, 209, 38, .9));
+}
+
+/*Sidebar*/
+/* The sidebar menu */
+.sidenav {
+   /* Full-height: remove this if you want "auto" height */
+  width: 28px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 40%; /* Stay at the top */
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: auto; /* Hide vertical scrollbar */
+  padding-top: 0px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+  font-weight: bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  font-weight: bolder;
+}
+
+
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*Socials*/
+
+.fa {
+  /*I think I need to get rid of the left padding*/
+  padding: 1em;
+  font-size: 1em;
+  width: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover{
+  color:white;
+  text-decoration-line: none;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*carousel*/
+.carousel-item .figure{
+  width:100%;
+  height:25vw;
+}
+
+.carousel-item img{
+  width:100%;
+  height:100%;
+}
+
+/*Main content*/
+.tier_content *{
+  padding: .5em 0;
+}
+
+.tier_content p{
+  font-size: 1.25em;
+}
+
+.d_tier h2,#D_Jumper.active {
+  color:#97e063;
+}
+
+.c_tier h2,#C_Jumper.active{
+  color:#fcfc9a;
+}
+
+.b_tier h2,#B_Jumper.active{
+  color:#ebd471;
+
+}
+
+.a_tier h2, #A_Jumper.active{
+  color:#edc368;
+}
+
+.s_tier h2,#S_Jumper.active{
+  color:#ff6759;
+}
+
+
+/*ending_content*/
+.ending_content .tab{
+  padding-left:1em;
+}
+
+.ending_content{
+  font-style: italic;
+}
+
+.ending_content a{
+  text-decoration: underline;
+  color:DodgerBlue;
+}
+
+.ending_content a:hover{
+  text-decoration-line: none;
+  color:DodgerBlue;
+}
+/*Form*/
+.form-group{
+  padding:1em;
+}
+
+.form-group label{
+  padding-top:.5em;
+  font-weight: bolder;
+}
+
+.form_border{
+  border-top: 1px double #c3d1d4;
+}
+/*Footer*/
+
+.footer_links{
+    border-top: 1px double #c3d1d4;
+    border-bottom: 1px double #c3d1d4;
+    padding-top: 1em;
+}
+
+.remove_left_padding{
+  padding-left: 0px;
+}
+
+.footer_group_name{
+  font-weight: bold;
+}
+
+footer .languages{
+  background-color: #1a7a8d;
+}
+
+footer .copyright{
+  font-weight: lighter;
+}
+/*Bottom no cookie alert*/
+#bottom-of-screen {
+    position: fixed;
+    bottom: 0;
+}

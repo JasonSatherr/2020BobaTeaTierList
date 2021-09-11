@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- TAB LOGO -->
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/tab_logo.jpg" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap-grid.css" >
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" >
+  <title>Op-ed | boba tier list</title>
+</head>
+<body class="bg-less-dark-jason dark_jason"  data-spy="scroll" data-target="#Tier_Jumper" data-offset="10">
+
+  <!--SIDEBAR-->
+  <div class="sidenav">
+    <nav id="Tier_Jumper" class="nav flex-column">
+      <ul class="nav">
+      <li class="nav-item">
+      <a id="D_Jumper" class="nav-link" href="#D_Tier">D</a>
+      </li>
+      <li class="nav-item">
+      <a id="C_Jumper" class="nav-link" href="#C_Tier">C</a>
+      </li>
+      <li class="nav-item">
+      <a id="B_Jumper" class="nav-link" href="#B_Tier">B</a>
+      </li>
+      <li class="nav-item">
+      <a id="A_Jumper" class="nav-link" href="#A_Tier">A</a>
+      </li>
+      <li  class="nav-item">
+      <a id="S_Jumper" class="nav-link" href="#S_Tier">S</a>
+      </li>
+    </nav>
+</div>
+
+
+<!--END SIDEBAR-->
+
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand px-4 brand_font" href="#">Jason's Journal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#JasonNavbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="JasonNavbarContent">
+      <ul class="navbar-nav ml-auto mr-3">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="text-align:right" href="#" id="navbarDropdownExplosions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Code Explosions
+          </a>
+          <div class="dropdown-menu bg-dark float-right" aria-labelledby="navbarDropdownExplosions">
+            <a class="dropdown-item" href="#">JS explosion</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Dark Mode</a>
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="col-6">
+                  <img
+              src="./imgs/moon.svg"
+              alt="Dark mode"
+              height="40px"
+              width="40px" /
+              class="dark_moon_active"
+              onclick="activate_dark_mode()"
+              id = "moon">
+                </div>
+
+                <div class="col-6">
+                  <img
+              src="./imgs/sun.svg"
+              alt="Light mode"
+              height="40px"
+              width="40px" /
+              class="light_sun_inactive"
+              onclick="activate_light_mode()"
+              id = "sun">
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- END NAVBAR -->
+
+
+
+  <!-- Title and description -->
+  <div class="container-fluid">
+
+    <div class="row justify-content-center pt-5">
+      <div class="col-8 col-md-4">
+        <h3> Op-ed  </h3>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-8 col-md-4">
+        <h1 class="display-3"> Bubble Teas: Ranked</h1>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-8 col-md-4">
+        <h5> A 2 month Boba veteran's definitive tier list.  This text might display wrapping. </h5>
+      </div>
+    </div>
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-12 col-md-3 text-center">
+        <div class="media">
+          <img class="mr-3 rounded-circle" src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_80,pg_1,q_80,w_80/ammv1fz3zecipfff7uox.jpg" alt="Jason">
+          <div class="media-body">
+            <h5 class="mt-0">Jason Sather</h5>
+            Dead-eyed slave to the 9-5
+            <br>
+              <div class="container-fluid" style="width:100%; padding:0;">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <a href="#" class="fa fa-facebook rounded-circle"></a>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="fa fa-twitter rounded-circle"></a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 text-center">
+        <div class="media">
+          <img class="mr-3 rounded-circle" src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_80,pg_1,q_80,w_80/ameoxukc7ytggnfl3mfm.jpg" alt="Assistant Jason">
+          <div class="media-body">
+            <h5 class="mt-0">Jason's Assistant</h5>
+            Entrepreneur
+            <br>
+            <div class="container-fluid" style="width:100%; padding:0;">
+              <div class="row no-gutters">
+                <div class="col-6">
+                  <a href="#" class="fa fa-facebook rounded-circle"></a>
+                </div>
+                <div class="col-6">
+                  <a href="#" class="fa fa-twitter rounded-circle"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+  <!--END TITLE AND DESCRIPTION -->
+
+
+  <!--CAROUSELTIMECAROUSELTIMECAROUSELTIMECAROUSELTIME -->
+  <div class="container-fluid">
+    <div class="row justify-content-md-center py-4">
+      <div class="col-10 col-md-6" style="margin:auto">
+
+        <div id="boba_carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active  justify-content-md-center">
+              <figure class="figure">
+                <img class="d-block w-100" src="./imgs/boba_carosel_1.jpg" alt="really cool boba">
+                <figcaption class="figure-caption">Hell was unleashed upon the workers.</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="figure">
+                <img class="d-block w-100" src="./imgs/boba_carosel_2.jpg" alt="slightly cooler boba">
+                <figcaption class="figure-caption">The manliest boba.</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="figure">
+                <img class="d-block w-100" src="./imgs/boba_carosel_3.png" alt="boba">
+                <figcaption class="figure-caption">Every Tumblr girl's personality.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#boba_carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#boba_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--NOTCAROUSELTIMENOTCAROUSELTIMENOTCAROUSELTIME-->
+
+  <!--Meat of the content (Ranked drinks)-->
+  <div class="container-fluid">  <!--SCROLLSPY yayyyy-->
+    <div class="row justify-content-md-center">
+      <!--D tier-->
+      <div id="D_Tier" class="col-12 col-md-5 tier_content d_tier"> <!--Make this the picture-->
+        <h2>D-Tier</h2>
+        <div class="ginger_tea">
+          <h4 class= "drink_name">Ginger Tea</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/ginger_milk_tea.jpg" alt="boba">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="mango_slush">
+          <h4 class= "drink_name">Mango Slush</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/mango_slush.jpg" alt="boba">
+          <p>It's literally just ice and mango flavored sugar.  ew.  ADDITIONALLY, it melts before it even gets into the customer's hands.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--C tier-->
+    <div class="row justify-content-md-center">
+      <div id="C_Tier" class="col-12 col-md-5 tier_content c_tier"> <!--Make this the picture-->
+        <h2>C-Tier</h2>
+        <div class="wintermelon_milk_tea">
+          <h4 class= "drink_name">Wintermelon Milk Tea</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/wintermelon_milk_tea.jpg" alt="boba">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="lychee_yakult">
+          <h4 class= "drink_name">Lychee yakult</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/lychee_yakult.jpg" alt="boba">
+          <p>The yakult family in particular just suffers from a lack of actual drink and is usually just packed with ice behind the opaque cup.  I always feel bad when making it.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--B tier-->
+    <div class="row justify-content-md-center">
+      <div id="B_Tier" class="col-12 col-md-5 tier_content b_tier"> <!--Make this the picture-->
+        <h2>B-Tier</h2>
+        <div class"signature_milk_tea">
+          <h4 class= "drink_name">Signature Milk Tea</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/signature_milk_tea.jpg" alt="boba">
+          <p>Not a bad drink, but not a stellar one.  A good intro into the milk tea world.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="peach_black_tea">
+          <h4 class= "drink_name">Peach Black Tea</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/peach_black_tea.jpg" alt="boba">
+          <p>Nice and refreshing.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--A tier-->
+    <div class="row justify-content-md-center">
+      <div id="A_Tier" class="col-12 col-md-5 tier_content a_tier"> <!--Make this the picture-->
+        <h2>A-Tier</h2>
+        <div class="aloe_vera_kiwi_juice">
+          <h4 class= "drink_name">Aloe Vera Kiwi Juice</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/aloe_vera_kiwi_juice.jpg" alt="boba">
+          <p>Okay, yes it tastes like an otter pop, but it looks so pretty.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="hokkaido_coffee_slush">
+          <h4 class= "drink_name">Hokkaido Coffee Slush</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/hokkaido_coffee_slush.jpg" alt="boba">
+          <p>One of the only slushies that aren't almost in liquid state upon being served.  Pretty tastey too. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--S tier-->
+    <div class="row justify-content-md-center">
+      <div id="S_Tier" class="col-12 col-md-5 tier_content s_tier"> <!--Make this the picture-->
+        <h2>S-Tier</h2>
+        <div class="mango_black_tea">
+          <h4 class= "drink_name">Mango black tea</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/mango_black_tea.jpg" alt="boba">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="50_percent_sugar">
+          <h4 class= "drink_name">50 Percent Sugar Modifer</h4>
+          <img class="d-block w-100" src="./imgs/tiered_teas/sugar.jpg" alt="boba">
+          <p>All the teas are wayyy too sweet.  With the exception of a few drinks, your experience will be greatly enhanced if some sugar was removed.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Ranking of Drinks-->
+
+  <!--End of article info-->
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <!--D tier-->
+      <div class="col-12 col-md-5 ending_content"> <!--Make this the picture-->
+        <p><span class="tab">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet feugiat posuere. Fusce ut velit quis nisi sagittis consequat quis ac sapien. Vestibulum quis justo at metus dignissim malesuada. Sed aliquet mi ut sodales condimentum. Ut tristique urna nec diam imperdiet posuere. Sed imperdiet diam vitae libero vestibulum, sed tempor quam blandit. Duis tempor sollicitudin tempor.
+          <a href = "mailto: ijdog18@gmail.com">ijdog18@gmail.com</a>
+        </p>
+        <p><span class="tab">Nulla</span> facilisi. Nullam ut ligula dignissim, venenatis nibh ac, laoreet mi. Duis non tempor enim. Aenean ullamcorper tristique sollicitudin. Morbi ultrices, lectus vitae malesuada mollis, risus augue cursus mauris, eu fermentum lorem quam a velit. </p>
+      </div>
+    </div>
+  </div>
+
+  <!--end of end of article-->
+
+  <!-- Join the newsletter form -->
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 form_border">
+        <form>
+          <div class="form-group">
+            <div class="container_fluid">
+              <div class="row justify-content-md-center">
+                <div class="col-4">
+                  <label class="float-right"for="email_input">Sign up for our newsletter</label>
+                </div>
+                <div class="col-4">
+                  <input type="email" class="form-control" id="email_input" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="col-3">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col order-first">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- No more newsletter form -->
+
+
+
+  <!--footer-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10 footer_links">
+          <h4 class="brand_font mb-4">Jason's Journal</h4>
+          <div class="row text-center">
+            <div class="col-6 col-md-2 news">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12 remove_left_padding">
+                    <p class="footer_group_name">NEWS</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 remove_left_padding">
+                    <p class="footer_group_content">World</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 remove_left_padding">
+                    <p class="footer_group_content">Business</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 remove_left_padding">
+                    <p class="footer_group_content">Tech</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 remove_left_padding">
+                    <p class="footer_group_content">Arts</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 remove_left_padding">
+                    <p class="footer_group_content">Culture</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-2 opinion">
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_name">OPINION</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Consumerism</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Alt-right ideology</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">America</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">BLM</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">UCSD is mid-tier</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-2 art">
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_name">ART</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Picasso</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Sather</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Da vinci</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Miller</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-2 product">
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_name">PRODUCT</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Home</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Leisure</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Clothes</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Cars</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Food</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-2 ssbu_guides">
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_name">SSBU GUIDES</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Yoshi</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Lucas</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Corrin</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Inkling</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">Lucina</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-2 languages">
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_name">LANGUAGESLANGUAGES</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">CHINESE</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">VIETNAMESE</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">SPANISH</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">GERMAN</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 remove_left_padding">
+                  <p class="footer_group_content">JAPANESE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col text-center copyright">
+          <p>Copyright 2001-2020 Sather Co.</p>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col text-center copyright">
+          Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--end footer-->
+
+  <!--BOTTOM ALERT PLZ -->
+  <div id="bottom-of-screen" class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col col-md-8">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>This website does not use cookie because the creator is a bonehead.</strong>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- END BOTTOM ALERT -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  <script src="./myJavascript.js"></script>
+</body>
+</html>
